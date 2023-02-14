@@ -1,0 +1,130 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background-image: linear-gradient(to right,#000000,#130F40);
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    background-image: linear-gradient(to right,#000000,#130F40);
+   
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+ul li {
+    display: inline-block;
+    margin: 25px 5px;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+ul li a{
+    color: #C8C6C6;
+    text-decoration: none;
+    font-size: 1.3em;
+     
+}
+/* .headingname
+{
+    font-size: 1.6em;
+    margin-left: 0em;
+    font-style: italic;
+    width: 350px;
+    background-color: black;
+    z-index: 1;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+.headingname
+{
+    font-size: 1.6em;
+    padding-left: 4em;
+    font-style: italic;
+    width: 13.67em;
+    background-color: black;
+    z-index: 1;
+    color: white;
+    height: 100%;
+    padding: 0.8em 0em;
+    
+}
+
+.headingname:hover 
+{
+    color: #DC0000;
+    transition: 1.3s;
+
+}
+#headingimage{
+    width: 130px;
+    height: 100px;
+}
+a {
+    background: linear-gradient(#820000 0 0) left / var(--p,0) no-repeat;
+    transition: .4s,background-position 0s;
+  }
+  a:hover {
+    --p: 100%;
+    background-position: right;
+  }
+  main 
+ {
+    height: 76vh;
+    background-image: linear-gradient(to right,#000000,#130F40);
+    
+    color:#ffffff ;
+    width: 100vw;
+    margin: auto;
+   
+ }
+ footer 
+ {
+    height: 12vh;
+    background-image: linear-gradient(to right,#000000,#130F40);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 1.2em;
+    
+    
+ }
+ h1{
+    text-align: center;
+    font-size: 3.3rem;
+    font-weight: bold;
+ }
+ .about
+ {
+    margin-top: 2rem;
+    text-align: center;
+    /* color: #820000; */
+ }
+ h2
+ {
+    font-size: 2rem;
+    
+ }
+ h3 
+ {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+ }
+ 
